@@ -1,0 +1,90 @@
+# ==========================================
+# Môi trường ảo (Virtual Environments)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Bytecode & Bộ nhớ đệm Python (Python Cache)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+.jupyter/
+
+# ==========================================
+# Tệp mô hình nhị phân (Serialized Model Weights)
+# ==========================================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# ==========================================
+# Dữ liệu & Kết quả sinh ra khi chạy (Generated Data & Outputs)
+# ==========================================
+# Dữ liệu ngày được tạo lại tự động bởi notebook
+data/processed/**
+!data/processed/**/
+!data/processed/**/.gitkeep
+
+# Các tệp kết quả chạy tự động (biểu đồ, bảng chỉ số, dự báo, mô hình,...)
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# (Tùy chọn) Bỏ comment nếu không muốn commit tệp CSV gốc (26MB) lên Git:
+# load_forecasting_dataset_corrected.csv
+
+# ==========================================
+# Cấu hình IDE & Text Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Tệp hệ điều hành (OS generated files)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+data
